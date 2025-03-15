@@ -5,7 +5,7 @@ import { CartIcon } from "../common/CartIcon";
 
 const Navigation = () => {
   return (
-    <nav className="flex items-center py-6 px-8 justify-between gap-35">
+    <nav className="flex items-center py-6 px-8 justify-between gap-34">
       <div className="flex items-center gap-6">
         <h2 className="text-3xl text-black font-bold">AdalSHOP</h2>
       </div>
@@ -19,9 +19,6 @@ const Navigation = () => {
           </li>
           <li className=" hover:text-black">
             <a href="/womens">Mujer</a>
-          </li>
-          <li className=" hover:text-black">
-            <a href="/kids">Niños</a>
           </li>
         </ul>
       </div>

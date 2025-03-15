@@ -1,0 +1,105 @@
+{
+    "categories": [
+        {
+            "title": "Para hombres",
+            "data": [
+                {
+                    "title": "Camisa",
+                    "description": "Camisas para hombres",
+                    "image": "/src/assets/img/jacket.webp"
+                },
+                {
+                    "title": "Camisa",
+                    "description": "Camisas para hombres",
+                    "image": "/src/assets/img/jacket.webp"
+                }
+            ]
+            
+        },
+        {
+            "title": "Para Mujeres",
+            "data": [
+                {
+                    "title": "Faldas",
+                    "description": "Faldas para mujeres",
+                    "image": "/src/assets/img/skirt.webp"
+                }
+            ]
+            
+        }
+    ],
+
+    "footer": {
+        "items": [
+            {
+                "title": "Necesito ayuda",
+                "list": [
+                    {
+                        "label": "Contactanos",
+                        "path": "/contact-us"
+                    },
+                    {
+                        "label": "Rastrear Orden",
+                        "path": "/track-order"
+                    },
+                    {
+                        "label": "Devoluciones",
+                        "path": "/returns"
+                    },
+                    {
+                        "label": "FAQ's",
+                        "path": "/faq"
+                    }
+                ]
+            },
+            {
+                "title": "Empresa",
+                "list": [
+                    {
+                        "label": "Sobre Nosotros",
+                        "path": "/about-us"
+                    },
+                    {
+                        "label": "Tiendas",
+                        "path": "/stores"
+                    }
+                ]
+            },
+            {
+                "title": "Síguenos",
+                "list": [
+                    {
+                        "label": "Instagram",
+                        "path": "/instagram"
+                    },
+                    {
+                        "label": "Twitter",
+                        "path": "/twitter"
+                    }
+                ]
+            },
+            {
+                "title": "Mas informacion",
+                "list": [
+                    {
+                        "label": "Términos y Condiciones",
+                        "path": "/terms-and-conditions"
+                    },
+                    {
+                        "label": "Política de Privacidad",
+                        "path": "/privacy-policy"
+                    },
+                    {
+                        "label": "Política de Cookies",
+                        "path": "/cookie-policy"
+                    },
+                    {
+                        "label": "Localizacion",
+                        "path": "/site-map"
+                    }
+                ]
+            }
+        ],
+        "copyright": "© 2025, Todos los derechos reservados. AdalShop."
+    }
+}
