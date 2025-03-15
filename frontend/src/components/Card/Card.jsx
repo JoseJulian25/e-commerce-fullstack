@@ -14,11 +14,13 @@ const Card = ({
     <div className="flex flex-col p-8">
       <img
         src={imagePath}
-        className={`max-h-[${height ? height : "220px"}] 
-            max-w-[${width ? width : "200px"}]  
-            min-h-[${height ? height : "220px"}] 
-            min-w-[${width ? width : "200px"}] 
-            bg-cover bg-center rounded hover:scale-102 cursor-pointer`}
+        className={`bg-cover bg-center rounded hover:scale-102 cursor-pointer`}
+        style={{
+          maxHeight: height || "220px",
+          maxWidth: width || "200px",
+          minHeight: height || "220px",
+          minWidth: width || "200px"
+        }}
         alt={title}
       />
       <div className="flex justify-between items-center">
