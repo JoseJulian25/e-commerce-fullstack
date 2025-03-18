@@ -1,5 +1,5 @@
 {
-    "categories": [
+    "sections": [
         {
             "title": "Para hombres",
             "data": [
@@ -28,6 +28,108 @@
             
         }
     ],
+        "categories": [
+          {
+            "id": 1,
+            "name": "Hombres",
+            "code": "MEN",
+            "path": "/men",
+            "description": "Ropa para hombres",
+            "types": [
+              {
+                "id": 1,
+                "name": "Jeans",
+                "description": "Jeans para hombres"
+              },
+              {
+                "id": 2,
+                "name": "Camisas",
+                "description": "Camisas para hombres"
+              },
+              {
+                "id": 3,
+                "name": "Pantalones cortos",
+                "description": "Pantalones cortos para hombres"
+              },
+              {
+                "id": 4,
+                "name": "Camisetas",
+                "description": "Camisetas para hombres"
+              },
+              {
+                "id": 14,
+                "name": "Sudaderas",
+                "description": "Sudaderas para hombres"
+              }
+            ],
+            "meta_data": {
+              "colors": [
+                "Black", "White", "Purple", "Gray", "Blue","Red","Orange","Navy","Yellow","Pink","Green"
+              ],
+              "sizes": ["S", "M", "L", "XL", "XXL"]
+            }
+          },
+          {
+            "id": 2,
+            "name": "Mujeres",
+            "code": "WOMEN",
+            "path": "/women",
+            "description": "Ropa para mujeres",
+            "types": [
+              {
+                "type_id": 5,
+                "code": "DRESSES",
+                "name": "Vestidos"
+              },
+              {
+                "type_id": 6,
+                "code": "CROPTOP",
+                "name": "Crop Top"
+              },
+              {
+                "type_id": 7,
+                "code": "SHORTS",
+                "name": "Pantalones cortos"
+              },
+              {
+                "type_id": 8,
+                "code": "JEANS",
+                "name": "Jeans"
+              },
+              {
+                "type_id": 9,
+                "code": "TSHIRTS",
+                "name": "Camiseta"
+              },
+              {
+                "type_id": 10,
+                "code": "SWEATSHIRT",
+                "name": "Sudadera"
+              },
+              {
+                "type_id": 11,
+                "code": "TOPS",
+                "name": "Tops"
+              },
+              {
+                "type_id": 12,
+                "code": "BOXERS",
+                "name": "Bóxers"
+              },
+              {
+                "type_id": 13,
+                "code": "KURTIS",
+                "name": "Kurtis"
+              }
+            ],
+            "meta_data": {
+              "colors": [
+                "Black", "White", "Purple", "Gray", "Blue","Red","Orange","Navy","Yellow","Pink","Green"
+              ],
+              "sizes": ["S", "M", "L", "XL", "XXL"]
+            }
+          }
+        ],
 
     "footer": {
         "items": [
