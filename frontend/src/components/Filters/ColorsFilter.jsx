@@ -35,8 +35,8 @@ const ColorsFilter = ({ colors }) => {
             <div className="flex flex-wrap pl-2" key={index}>
               <div
                 onClick={() => handleColorClick(color)}
-                className={`border rounded w-7 h-7 cursor-pointer transition-transform duration-200 
-                  ${isSelected ? "transform scale-110 border-2 border-black" : "border-gray-400"}`}
+                className={`border rounded w-7 h-7 cursor-pointer hover:scale-110 duration-200
+                  ${isSelected ? "transform scale-110 border-3 border-black" : "border-gray-400"}`}
                 style={{
                   background: `${colorSelector[color]}`,
                 }}

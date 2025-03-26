@@ -2,7 +2,7 @@ import React from 'react';
 
 const FilterIcon = () => {
   return (
-    <span className="material-symbols-outlined text-gray-600">
+    <span className="material-symbols-outlined text-white">
 tune
 </span>
   );

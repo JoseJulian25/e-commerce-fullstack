@@ -1,207 +1,225 @@
 {
-    "sections": [
+  "sections": [
+    {
+      "title": "Para hombres",
+      "data": [
         {
-            "title": "Para hombres",
-            "data": [
-                {
-                    "title": "Camisa",
-                    "description": "Camisas para hombres",
-                    "image": "/src/assets/img/jacket.webp"
-                },
-                {
-                    "title": "Camisa",
-                    "description": "Camisas para hombres",
-                    "image": "/src/assets/img/jacket.webp"
-                }
-            ]
-            
+          "title": "Camisa",
+          "description": "Camisas para hombres",
+          "image": "/src/assets/img/jacket.webp"
         },
         {
-            "title": "Para Mujeres",
-            "data": [
-                {
-                    "title": "Faldas",
-                    "description": "Faldas para mujeres",
-                    "image": "/src/assets/img/skirt.webp"
-                }
-            ]
-            
+          "title": "Camisa",
+          "description": "Camisas para hombres",
+          "image": "/src/assets/img/jacket.webp"
         }
-    ],
-        "categories": [
+      ]
+    },
+    {
+      "title": "Para Mujeres",
+      "data": [
+        {
+          "title": "Faldas",
+          "description": "Faldas para mujeres",
+          "image": "/src/assets/img/skirt.webp"
+        }
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Hombres",
+      "code": "MEN",
+      "path": "/men",
+      "description": "Ropa para hombres",
+      "types": [
+        {
+          "id": 1,
+          "name": "Jeans",
+          "description": "Jeans para hombres"
+        },
+        {
+          "id": 2,
+          "name": "Camisas",
+          "description": "Camisas para hombres"
+        },
+        {
+          "id": 3,
+          "name": "Pantalones cortos",
+          "description": "Pantalones cortos para hombres"
+        },
+        {
+          "id": 4,
+          "name": "Camisetas",
+          "description": "Camisetas para hombres"
+        },
+        {
+          "id": 14,
+          "name": "Sudaderas",
+          "description": "Sudaderas para hombres"
+        },
+        {
+          "type_id": 15,
+          "code": "BOXERS",
+          "name": "Bóxers"
+        }
+      ],
+      "meta_data": {
+        "colors": [
+          "Black",
+          "White",
+          "Purple",
+          "Gray",
+          "Blue",
+          "Red",
+          "Orange",
+          "Navy",
+          "Yellow",
+          "Pink",
+          "Green"
+        ],
+        "sizes": ["S", "M", "L", "XL", "XXL"]
+      }
+    },
+    {
+      "id": 2,
+      "name": "Mujeres",
+      "code": "WOMEN",
+      "path": "/women",
+      "description": "Ropa para mujeres",
+      "types": [
+        {
+          "type_id": 5,
+          "code": "DRESSES",
+          "name": "Vestidos"
+        },
+        {
+          "type_id": 6,
+          "code": "CROPTOP",
+          "name": "Crop Top"
+        },
+        {
+          "type_id": 7,
+          "code": "SHORTS",
+          "name": "Pantalones cortos"
+        },
+        {
+          "type_id": 8,
+          "code": "JEANS",
+          "name": "Jeans"
+        },
+        {
+          "type_id": 9,
+          "code": "TSHIRTS",
+          "name": "Camiseta"
+        },
+        {
+          "type_id": 10,
+          "code": "SWEATSHIRT",
+          "name": "Sudadera"
+        },
+        {
+          "type_id": 11,
+          "code": "TOPS",
+          "name": "Tops"
+        },
+        {
+          "type_id": 12,
+          "code": "KURTIS",
+          "name": "Kurtis"
+        }
+      ],
+      "meta_data": {
+        "colors": [
+          "Black",
+          "White",
+          "Purple",
+          "Gray",
+          "Blue",
+          "Red",
+          "Orange",
+          "Navy",
+          "Yellow",
+          "Pink",
+          "Green"
+        ],
+        "sizes": ["S", "M", "L", "XL", "XXL"]
+      }
+    }
+  ],
+
+  "footer": {
+    "items": [
+      {
+        "title": "Necesito ayuda",
+        "list": [
           {
-            "id": 1,
-            "name": "Hombres",
-            "code": "MEN",
-            "path": "/men",
-            "description": "Ropa para hombres",
-            "types": [
-              {
-                "id": 1,
-                "name": "Jeans",
-                "description": "Jeans para hombres"
-              },
-              {
-                "id": 2,
-                "name": "Camisas",
-                "description": "Camisas para hombres"
-              },
-              {
-                "id": 3,
-                "name": "Pantalones cortos",
-                "description": "Pantalones cortos para hombres"
-              },
-              {
-                "id": 4,
-                "name": "Camisetas",
-                "description": "Camisetas para hombres"
-              },
-              {
-                "id": 14,
-                "name": "Sudaderas",
-                "description": "Sudaderas para hombres"
-              }
-            ],
-            "meta_data": {
-              "colors": [
-                "Black", "White", "Purple", "Gray", "Blue","Red","Orange","Navy","Yellow","Pink","Green"
-              ],
-              "sizes": ["S", "M", "L", "XL", "XXL"]
-            }
+            "label": "Contactanos",
+            "path": "/contact-us"
           },
           {
-            "id": 2,
-            "name": "Mujeres",
-            "code": "WOMEN",
-            "path": "/women",
-            "description": "Ropa para mujeres",
-            "types": [
-              {
-                "type_id": 5,
-                "code": "DRESSES",
-                "name": "Vestidos"
-              },
-              {
-                "type_id": 6,
-                "code": "CROPTOP",
-                "name": "Crop Top"
-              },
-              {
-                "type_id": 7,
-                "code": "SHORTS",
-                "name": "Pantalones cortos"
-              },
-              {
-                "type_id": 8,
-                "code": "JEANS",
-                "name": "Jeans"
-              },
-              {
-                "type_id": 9,
-                "code": "TSHIRTS",
-                "name": "Camiseta"
-              },
-              {
-                "type_id": 10,
-                "code": "SWEATSHIRT",
-                "name": "Sudadera"
-              },
-              {
-                "type_id": 11,
-                "code": "TOPS",
-                "name": "Tops"
-              },
-              {
-                "type_id": 12,
-                "code": "BOXERS",
-                "name": "Bóxers"
-              },
-              {
-                "type_id": 13,
-                "code": "KURTIS",
-                "name": "Kurtis"
-              }
-            ],
-            "meta_data": {
-              "colors": [
-                "Black", "White", "Purple", "Gray", "Blue","Red","Orange","Navy","Yellow","Pink","Green"
-              ],
-              "sizes": ["S", "M", "L", "XL", "XXL"]
-            }
+            "label": "Rastrear Orden",
+            "path": "/track-order"
+          },
+          {
+            "label": "Devoluciones",
+            "path": "/returns"
+          },
+          {
+            "label": "FAQ's",
+            "path": "/faq"
           }
-        ],
-
-    "footer": {
-        "items": [
-            {
-                "title": "Necesito ayuda",
-                "list": [
-                    {
-                        "label": "Contactanos",
-                        "path": "/contact-us"
-                    },
-                    {
-                        "label": "Rastrear Orden",
-                        "path": "/track-order"
-                    },
-                    {
-                        "label": "Devoluciones",
-                        "path": "/returns"
-                    },
-                    {
-                        "label": "FAQ's",
-                        "path": "/faq"
-                    }
-                ]
-            },
-            {
-                "title": "Empresa",
-                "list": [
-                    {
-                        "label": "Sobre Nosotros",
-                        "path": "/about-us"
-                    },
-                    {
-                        "label": "Tiendas",
-                        "path": "/stores"
-                    }
-                ]
-            },
-            {
-                "title": "Síguenos",
-                "list": [
-                    {
-                        "label": "Instagram",
-                        "path": "/instagram"
-                    },
-                    {
-                        "label": "Twitter",
-                        "path": "/twitter"
-                    }
-                ]
-            },
-            {
-                "title": "Mas informacion",
-                "list": [
-                    {
-                        "label": "Términos y Condiciones",
-                        "path": "/terms-and-conditions"
-                    },
-                    {
-                        "label": "Política de Privacidad",
-                        "path": "/privacy-policy"
-                    },
-                    {
-                        "label": "Política de Cookies",
-                        "path": "/cookie-policy"
-                    },
-                    {
-                        "label": "Localizacion",
-                        "path": "/site-map"
-                    }
-                ]
-            }
-        ],
-        "copyright": "© 2025, Todos los derechos reservados. AdalShop."
-    }
+        ]
+      },
+      {
+        "title": "Empresa",
+        "list": [
+          {
+            "label": "Sobre Nosotros",
+            "path": "/about-us"
+          },
+          {
+            "label": "Tiendas",
+            "path": "/stores"
+          }
+        ]
+      },
+      {
+        "title": "Síguenos",
+        "list": [
+          {
+            "label": "Instagram",
+            "path": "/instagram"
+          },
+          {
+            "label": "Twitter",
+            "path": "/twitter"
+          }
+        ]
+      },
+      {
+        "title": "Mas informacion",
+        "list": [
+          {
+            "label": "Términos y Condiciones",
+            "path": "/terms-and-conditions"
+          },
+          {
+            "label": "Política de Privacidad",
+            "path": "/privacy-policy"
+          },
+          {
+            "label": "Política de Cookies",
+            "path": "/cookie-policy"
+          },
+          {
+            "label": "Localizacion",
+            "path": "/site-map"
+          }
+        ]
+      }
+    ],
+    "copyright": "© 2025, Todos los derechos reservados. AdalShop."
+  }
 }

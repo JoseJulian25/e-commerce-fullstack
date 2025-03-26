@@ -1,16 +1,18 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import './index.css'
-import { RouterProvider } from 'react-router-dom'
-import router from './routes.jsx'
-import React from 'react'
-import Navigation from './components/NavigationBar/Navigation.jsx'
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
+import "./index.css";
+import { RouterProvider } from "react-router-dom";
+import router from "./routes.jsx";
+import React from "react";
+import { ThemeProvider } from "@material-tailwind/react";
+import MainNavBar from "./components/NavigationBar/MainNavBar.jsx";
 
-createRoot(document.getElementById('root')).render(
+createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <RouterProvider router={router}>
-      <Navigation/>
-    </RouterProvider>
-    
-  </StrictMode>,
-)
+    <ThemeProvider>
+      <RouterProvider router={router}>
+        <MainNavBar />
+      </RouterProvider>
+    </ThemeProvider>
+  </StrictMode>
+);

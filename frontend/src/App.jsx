@@ -3,6 +3,7 @@ import BannerSection from "./components/BannerSection/BannerSection";
 import NewArrivals from "./components/Sections/NewArrivals";
 import content from "./data/content.json";
 import Category from "./components/Sections/Categories/Categories";
+import './App.css'
 
 const App = () => {
   return (
